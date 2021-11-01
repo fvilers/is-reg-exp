@@ -25,7 +25,7 @@ if (isRegExp(variable)) {
   // From here, variable is strongly typed as a string
   console.log(
     "Variable is a reg exp that",
-    variable.match("This is a regexp") ? "matches" : "does not  match",
+    variable.test("This is a regexp") ? "matches" : "does not  match",
     "the provided string"
   );
 } else {
