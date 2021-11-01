@@ -2,6 +2,11 @@
   "name": "is-reg-exp",
   "version": "0.0.0",
   "description": "A TypeScript type guard that validates if the given value is a RegExp",
+  "main": "dist/is-reg-exp.js",
+  "types": "dist/is-reg-exp.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fvilers/is-reg-exp.git"
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fvilers/is-reg-exp/issues"
   },
-  "homepage": "https://github.com/fvilers/is-reg-exp#readme"
+  "homepage": "https://github.com/fvilers/is-reg-exp#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }
