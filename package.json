@@ -1,6 +1,6 @@
 {
   "name": "@fvilers/is-reg-exp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript type guard that validates if the given value is a RegExp",
   "main": "dist/src/is-reg-exp.js",
   "types": "dist/src/is-reg-exp.d.ts",
